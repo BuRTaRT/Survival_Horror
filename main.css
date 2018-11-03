@@ -106,7 +106,7 @@ body {
     }
     .row-nav {
         height: 60px;
-        background-color: #232323;
+        background-color: rgba(0,0,0,0.7);
     }
 }
 .Alien-isolation {
