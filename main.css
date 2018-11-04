@@ -1,43 +1,4 @@
-@font-face {
-    font-family: horror;
-    src: url(fonts/horror.otf);
-}
-@font-face {
-    font-family: horror2;
-    src: url(fonts/KlingeDeathBrush.ttf);
-}
-@font-face {
-    font-family: amnesia;
-    src: url(fonts/amnesiaRip.ttf);
-}
-@font-face {
-    font-family: RE;
-    src: url(fonts/Resident_Evil_Large.ttf)
-}
-@font-face {
-    font-family: SH;
-    src: url(fonts/SLNTHLE.TTF)
-}
-@font-face {
-    font-family: DeadSpace;
-    src: url(fonts/DeadSpace.ttf)
-}
-@font-face {
-    font-family: insomnia;
-    src: url(fonts/Insomnia.ttf)
-}
-@font-face {
-    font-family: stroke;
-    src: url(fonts/Stroke.otf)
-}
-@font-face {
-    font-family: dist;
-    src: url(fonts/Dist.ttf)
-}
-@font-face {
-    font-family: euro;
-    src: url(fonts/euro.ttf)
-}
+
 body {
     position: relative;
     background-image: url(https://wallpaperplay.com/walls/full/b/d/2/147274.jpg);
