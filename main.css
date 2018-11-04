@@ -29,7 +29,7 @@ body {
     text-align: center;
     color: #FFFFFF;
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px gray, 0 0 30px gray, 0 0 40px gray, 0 0 55px gray, 0 0 75px gray;
-    font-size: 80px;
+    font-size: 60px;
 }
 .container-fluid {
     z-index: 1;
@@ -51,6 +51,9 @@ body {
     color: white;
 }
 @media (min-width: 768px) {
+    .parallax h1{
+        font-size: 80px;
+    }
     .md-nav {
         background-color: transparent;
     }
