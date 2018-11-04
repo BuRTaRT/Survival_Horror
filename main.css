@@ -1,7 +1,6 @@
-
 body {
     position: relative;
-    background-image: url(https://wallpaperplay.com/walls/full/b/d/2/147274.jpg);
+    background-image: url(img/background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -51,29 +50,7 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
     color: white;
 }
-@media (min-width: 768px) {
-    .parallax h1{
-        font-size: 80px;
-    }
-    .md-nav {
-        background-color: transparent;
-    }
-    .md-nav a{
-        width: auto;
-    }
-    .modal-content {
-        margin-left: -25%;
-        width: 150%;
-        color: white;
-    }
-    .img-amnesia {
-        height: 303.75px;
-    }
-    .row-nav {
-        height: 60px;
-        background-color: rgba(0,0,0,0.7);
-    }
-}
+
 .Alien-isolation {
     text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
     font-family: horror;
@@ -216,9 +193,31 @@ textarea {
     bottom: 0;
     left: 0;
 }
-
 .footer {
     min-height: 100px;
-    background-color: rgba(0,0,0,0.97);
+    background-color: rgba(0, 0, 0, 0.97);
     color: white;
+}
+@media (min-width: 768px) {
+    .parallax h1 {
+        font-size: 80px;
+    }
+    .md-nav {
+        background-color: transparent;
+    }
+    .md-nav a {
+        width: auto;
+    }
+    .modal-content {
+        margin-left: -25%;
+        width: 150%;
+        color: white;
+    }
+    .img-amnesia {
+        height: 303.75px;
+    }
+    .row-nav {
+        height: 60px;
+        background-color: rgba(0, 0, 0, 0.7);
+    }
 }
