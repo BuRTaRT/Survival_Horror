@@ -1,7 +1,7 @@
 # Survival_Horror
 Adaptive web-site .
 
-## Preview https://raw.githack.com/BuRTaRT/Cat_energy/master/source/index.html
+## Preview https://raw.githack.com/BuRTaRT/Survival_Horror/master/index.html
 
 ### This project is simple landing page made with bootstrap4,
 
