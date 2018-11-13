@@ -5,6 +5,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position: center center;
+    background-color: black;
     
 }
 .md-nav a {
