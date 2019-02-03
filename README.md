@@ -3,7 +3,7 @@ Adaptive web-site .
 
 ## Preview https://raw.githack.com/BuRTaRT/Survival_Horror/master/index.html
 
-### This project is simple landing page made with bootstrap4,
+### This project is adaptive landing page made with bootstrap4.
 
 
 ### Tech-information:
@@ -11,4 +11,4 @@ Adaptive web-site .
 - Display model: flex;
 - Javascript(es5).
 - bootstrap4
--jquery
+- jquery
