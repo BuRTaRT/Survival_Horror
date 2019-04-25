@@ -57,9 +57,8 @@ var gamesData = [
   {
     name: "Darkwood",
     youtubeLink: "https://www.youtube.com/embed/3S3tmWfFACQ",
-    description:"Таинственный мрачный лес, где царит звенящая тишина. Вечная тьма, давящая на психику многотонной стальной плитой. Ощущение, что все вокруг - оно не может быть реальным, так просто не бывает. Кто эти твари, которые следуют по пятам? Почему выключается свет, а все вокруг скрывается под туманной пеленой? Что хочет получить фантом, играющий на пианино? Боже, но генератор - он говорит. Как это возможно? Может, мы сошли с ума? Где мы вообще? Кто пленил нас и не выпускает? Причина - Темный Лес. Самый страшный монстр - Darkwood."
-
-
+    description:
+      "Таинственный мрачный лес, где царит звенящая тишина. Вечная тьма, давящая на психику многотонной стальной плитой. Ощущение, что все вокруг - оно не может быть реальным, так просто не бывает. Кто эти твари, которые следуют по пятам? Почему выключается свет, а все вокруг скрывается под туманной пеленой? Что хочет получить фантом, играющий на пианино? Боже, но генератор - он говорит. Как это возможно? Может, мы сошли с ума? Где мы вообще? Кто пленил нас и не выпускает? Причина - Темный Лес. Самый страшный монстр - Darkwood."
   }
 ];
 
@@ -75,13 +74,20 @@ var gamesData = [
 //         gamesData[i].description;
 //     }
 //   }
-let btns = document.querySelectorAll(".btn-primary");
-let video = document.querySelector(".some-class");
-let desrText = document.querySelector(".modal-body");
- for(let key in btns){
-   btns[key].onclick = function () {
+let btns = document.querySelectorAll(".btn-primary"),
+  video = document.querySelector(".some-class"),
+  desrText = document.querySelector(".modal-body"),
+  btnsClose = document.querySelector(".btn-secondary");
+cross = document.querySelector(".cross1");
+btnsClose.onclick = function() {
+  video.src = "";
+};
+cross.onclick = function() {
+  video.src = "";
+};
+for (let key in btns) {
+  btns[key].onclick = function() {
     video.src = gamesData[key].youtubeLink;
-     desrText.innerHTML = gamesData[key].description;
-   }
- }
-;
+    desrText.innerHTML = gamesData[key].description;
+  };
+}
